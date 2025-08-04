@@ -93,7 +93,7 @@ class _MyAppHomeState extends State<MyAppHome> with TickerProviderStateMixin {
               ),
               const SizedBox(height: 20),
               const AnimatedText(
-                text: "Weather App",
+                text: "My Weather App",
                 style: TextStyle(fontSize: 26, color: Colors.white),
                 delay: Duration(milliseconds: 500),
               ),
