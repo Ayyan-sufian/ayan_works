@@ -1,8 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'profile_screen.dart';
-import 'search_screen.dart';
 
 class SettingScreen extends StatefulWidget {
   const SettingScreen({super.key});
