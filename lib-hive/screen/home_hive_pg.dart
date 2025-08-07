@@ -16,7 +16,6 @@ class _HomeHivePgState extends State<HomeHivePg> {
 
   List<Map<String, dynamic>> _item = [];
 
-  //reference our box
   final _myBox = Hive.box('myBox');
 
   @override
@@ -25,8 +24,6 @@ class _HomeHivePgState extends State<HomeHivePg> {
     refreshItem(null, null, null, null);
     imageBytes = retrieveImg();
   }
-
-  //refreshItem function
 
   void refreshItem(int? minAge, int? maxAge, bool? even, bool? odd) {
     final data = _myBox.keys
